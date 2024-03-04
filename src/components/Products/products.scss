@@ -1,0 +1,12 @@
+.products{
+    // background: brown;
+    display: grid;
+    // flex-wrap: wrap;
+    grid-template-columns: 1fr 50fr 1fr;
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
